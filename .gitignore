@@ -1,14 +1,14 @@
-# Moodle-specific ignored folders/files
+# Moodle data and caches
 moodledata/
 cache/
 localcache/
 
-# Temporary/log files
+# Logs and temporary files
 *.log
 *.tmp
 *.bak
 
-# OS/editor junk
+# OS/editor files
 .DS_Store
 Thumbs.db
 *.swp
@@ -21,6 +21,6 @@ node_modules/
 # Moodle configuration (never commit)
 config.php
 
-# Ignore backups
+# Backup files
 *.sql
 *.zip
