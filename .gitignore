@@ -1,26 +1,18 @@
-# Moodle data and caches
-moodledata/
-cache/
-localcache/
+# 1. Moodle Specific Data and Config
+/moodledata/
+/config.php
 
-# Logs and temporary files
-*.log
-*.tmp
-*.bak
+# 2. Local Cache/Temp Files
+/temp/
+/cache/
+/localcache/
 
-# OS/editor files
+# 3. Dependencies and Build Artifacts (Usually excluded)
+/node_modules/
+
+# 4. IDE and Local Environment Files (Commonly ignored)
 .DS_Store
-Thumbs.db
-*.swp
-*.swo
-
-# Composer / Node modules
-vendor/
-node_modules/
-
-# Moodle configuration (never commit)
-config.php
-
-# Backup files
-*.sql
-*.zip
+.vscode/
+.idea/
+.nmrc
+*.log
